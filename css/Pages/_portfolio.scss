@@ -1,0 +1,54 @@
+.portfolio-categ{
+		position: relative;
+    	right: 41px;
+    	bottom: 20px;
+		li {
+			font-family:"Bebas";
+			display:inline-block;
+    		padding: 12px 15px;
+    		&:hover{
+	    		padding:12px 15px;
+	    		background-color:$rosa;
+	    		color:white;
+    		}
+		}
+		span{
+			background-color:$rosa;
+			padding: 15px 0px;
+		}
+
+}
+
+.portfolio-area{
+	img{
+		display:inline-block;
+	}
+	
+}
+
+.portfolio-item2{
+	.image-block{
+		img{
+			@include image;
+	    	&:hover{
+	    		@include box-shadow(0 0 5px #E8663C);
+	    		border: 1px solid #E8663C;
+	    	}
+		}
+	    
+	}
+	.home-portfolio-text {
+    	@include bordes;
+    	h4{
+    		color:#BCBECC;
+    		font-family:"Bebas";
+    	}
+    	p{
+    		@extend h4;
+    		color:$rosa;
+    		text-transform:uppercase;
+    		font-size:12px;
+    	}
+	}
+}
+

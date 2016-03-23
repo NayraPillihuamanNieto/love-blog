@@ -1,0 +1,31 @@
+$blanco:#FFFFFF;
+$rosapalido:#F2AE9C;
+$rosa:#E8663C;
+
+@mixin orange-icon{	
+	height: 75px;
+	left: -105px;
+	position: absolute;
+	width: 75px;
+}
+@mixin image{
+	border: 1px solid #d5d5d5;
+	background: #FFFFFF;
+	padding: 1px;
+}
+@mixin box-shadow($shadow) {
+	-moz-box-shadow:$shadow;
+  	-webkit-box-shadow:$shadow;
+ 	 box-shadow:$shadow;
+}
+@mixin bordes{
+	border: 1px solid #ddd;
+    padding-left: 8px;
+	width: 225px;
+	margin-bottom:45px;
+}
+@mixin relleno{
+	border-bottom: 1px solid  #BFBFBF;
+    border-left: 1px solid  #BFBFBF;
+    border-right: 1px solid  #BFBFBF;
+}

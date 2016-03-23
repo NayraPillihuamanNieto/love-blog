@@ -1,0 +1,58 @@
+@font-face {
+font-family:"Bebas";
+src: url("../font/bebas___-webfont.ttf");
+font-weight:normal;
+font-weight:normal;
+}
+section{
+	font-family:Arial;
+	span{
+		font-family:"Bebas";
+	}
+	.header_bottom_area2 {
+	    background: $rosapalido;
+	    min-height: 50px;
+	    position: relative;
+        top: 85px;
+        z-index: -1;
+	}
+	.single_header_title{
+		background-color:$rosa;
+	    height: 50px;
+	    position: relative;
+	    top: 15px;
+	    color:$blanco;
+	    margin-bottom: 61px;
+	    border-left: 12px solid $blanco;
+  		border-right: 12px solid $blanco;
+  		h2{
+  			position:relative;
+  			left:15px;
+  		}
+	}
+}
+.single_sidebar{
+	.category_list{
+		a{
+				color:black;
+			}
+		
+	}
+	span{
+		color:$rosa;
+	}
+	.raya2{
+		background-image:url("../images/heading-bg.png");
+		padding: 10px;
+	    position: relative;
+	    bottom: 36px;
+	    margin-left: 120px;
+	}
+}
+.gallery_container{
+	img{
+		margin-bottom: 5px;
+   		border: 1px solid $rosa;
+	}
+}
+

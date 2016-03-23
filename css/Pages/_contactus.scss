@@ -1,0 +1,52 @@
+.google_map{
+	img{
+		width:100%;
+	}
+}
+input{
+    border: 1px solid red;
+    padding: 9px;
+    width: 62%;
+    font-family:"Bebas";
+    color:$rosa;
+    font-size:13px;
+    }
+textarea{
+	@extend input;
+}
+.down{
+	margin-bottom:50px;
+}
+.rosa{
+	span{
+		color:$rosa;
+		font-family:Arial;
+	}
+}
+.cf_email{
+    width:63%;
+ }
+ .cf_msg{
+	width: 100%;
+	padding-bottom: 148px;
+ }
+ .cf_submit{
+ 	width: 100%;
+ 	padding-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+    color:$blanco;
+    background:$rosa;
+ }
+::-webkit-input-placeholder { 
+	color:$rosa; 
+}
+::-moz-placeholder {
+ 	color:$rosa;
+ } /* firefox 19+ */
+:-ms-input-placeholder { 
+	color:$rosa;
+	 } /* ie */
+input:-moz-placeholder { 
+	color:$rosa;
+}

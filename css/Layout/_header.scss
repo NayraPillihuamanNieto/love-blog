@@ -1,0 +1,41 @@
+
+body{
+    font-family:"Bebas";
+}
+
+.navbar{
+    margin:0;
+    position:fixed;
+    z-index:3;
+}
+.navbar-default {
+    background-color:$blanco;
+    font-family:"Bebas";
+    padding-bottom: 15px;
+
+    .navbar-brand {
+        color:$rosapalido;
+        font-weight: bold;
+        font-family:"Bebas";
+        &:hover{
+            background-color:transparent;
+            color:#E75E3A;
+        }
+        span{
+            color:#E75E3A;
+            &:hover{
+            color:$rosapalido;
+            }
+        }
+    }
+}
+.navbar-default {
+    .navbar-nav > li > a{
+        color:#BFBFBF;
+        margin-top: 15px;
+        &:hover{
+        color:#E75E3A;
+        background-color:transparent;
+        }
+     }
+}
